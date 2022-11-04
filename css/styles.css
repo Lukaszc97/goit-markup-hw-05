@@ -96,14 +96,13 @@ ul {
 }
 
 .order {
-
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(255, 255, 255, 0)
     ),
     url("../images/order.jpg");
- background-size: contain;
-background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 1600px;
   color: var(--white-text-color);
   padding-top: 200px;
@@ -143,16 +142,16 @@ background-repeat: no-repeat;
 }
 .close-btn {
   position: absolute;
-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-right: 8px;
+  right: 8px;
   top: 8px;
   background-color: transparent;
   border-radius: 50%;
   width: 30px;
   height: 30px;
- border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .is-hidden {
   opacity: 0;
@@ -179,7 +178,7 @@ right: 8px;
 .figure-style {
   margin: 0;
   padding-bottom: 16px;
-  border-bottom: 1px solid var(--border-color);
+
   cursor: pointer;
 }
 .picture-portfolio-box {
@@ -196,7 +195,7 @@ right: 8px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: var(--main-theme-color);
 }
-.picture-portfolio-box:hover .picture-portfolio-overlay  {
+.picture-portfolio-box:hover .picture-portfolio-overlay {
   transform: translate(0, -100%);
 }
 .picture-portfolio-overlay-text {
@@ -399,9 +398,6 @@ button:focus {
 .footer > .container {
   justify-content: left;
 }
-
-
-
 
 .join > .social-media-icons > li {
   background-color: var(--footer-social-media-icon);
