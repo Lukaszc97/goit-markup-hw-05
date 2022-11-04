@@ -72,7 +72,7 @@ ul {
   height: 4px;
   border-radius: 2px;
   background-color: var(--main-theme-color);
-  width: 53px;
+  width: 58px;
 }
 
 .nav > ul :not(:last-child) {
